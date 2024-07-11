@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0033A0;
+    color: white;
+}
+
+.navbar, .footer {
+    background-color: #0033A0;
+}
+
+.navbar-brand .logo {
+    width
