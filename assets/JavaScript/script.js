@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Smooth scroll for navigation links
+    // Smooth scroll
     $('a.nav-link').on('click', function(event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -13,10 +13,10 @@ $(document).ready(function() {
         }
     });
 
-    // Tooltip initialization
+    // Tooltip
     $('[data-toggle="tooltip"]').tooltip();
 
-    // Hover effect for the logo
+    // Hover
     $('.navbar-brand .logo').hover(
         function() {
             $(this).addClass('logo-hover');

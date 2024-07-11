@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #0033A0;
+    background-color: #0033A0 !important; 
     color: white;
 }
 
@@ -9,11 +9,11 @@ body {
 }
 
 .navbar-brand .logo {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .logo {
-    transition: transform 0.3s;
+    transition: transform 0.5s;
 }
 
 .logo:hover {
