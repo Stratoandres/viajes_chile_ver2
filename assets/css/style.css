@@ -9,4 +9,13 @@ body {
 }
 
 .navbar-brand .logo {
-    width
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo {
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
